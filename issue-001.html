@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Issue 001 | The Highlandian</title>
+  <meta name="description" content="Read Issue 001 of The Highlandian, Fall 2026: Little Free Libraries, Highlands ghost stories, new and new-to-you finds, and more from Highlands, Edmonton.">
+  <link rel="canonical" href="https://thehighlandian.org/issue-001.html">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="images/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="images/favicon-16.png" sizes="16x16" type="image/png">
+  <link rel="icon" href="images/icon-192.png" sizes="192x192" type="image/png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png" sizes="180x180">
+  <link rel="manifest" href="manifest.webmanifest">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="The Highlandian">
+  <meta property="og:title" content="The Highlandian, Issue 001">
+  <meta property="og:description" content="Fall 2026. Little Free Libraries, Highlands ghost stories, new and new-to-you finds, and more.">
+  <meta property="og:url" content="https://thehighlandian.org/issue-001.html">
+  <meta property="og:image" content="https://thehighlandian.org/images/og-image.jpg">
+  <meta property="og:image:secure_url" content="https://thehighlandian.org/images/og-image.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="The Highlandian masthead with magpie. A neighbourhood with stories to tell.">
+  <meta property="og:locale" content="en_CA">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The Highlandian, Issue 001">
+  <meta name="twitter:description" content="Fall 2026. Little Free Libraries, Highlands ghost stories, new and new-to-you finds, and more.">
+  <meta name="twitter:image" content="https://thehighlandian.org/images/og-image.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Barlow+Semi+Condensed:wght@500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #292929;
+      --ink-soft: #555353;
+      --gold: #da9d32;
+      --magpie: #1a7fc1;
+      --paper: #ffffff;
+      --rule: #292929;
+      --gutter: 16px;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: #f3f1ec;
+      color: var(--ink);
+      font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+      font-size: 17px;
+      line-height: 1.5;
+    }
+    img { display: block; max-width: 100%; height: auto; }
+    a { color: var(--ink); }
+
+    .top {
+      background: var(--paper);
+      border-bottom: 3px double var(--rule);
+    }
+    .top-inner {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 20px var(--gutter) 14px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .top a.home { display: block; flex: 0 1 300px; min-width: 0; }
+    .top a.home img { width: 100%; }
+    .meta {
+      flex: 1 1 auto;
+      text-align: right;
+      font-family: "Barlow Semi Condensed", "Arial Narrow", sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+      white-space: nowrap;
+    }
+    .meta a { color: var(--magpie); text-decoration: none; margin-left: 14px; }
+    .meta a:hover { color: var(--ink); }
+
+    .pages {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 20px var(--gutter) 40px;
+    }
+    .pages figure { margin: 0 0 16px; }
+    .pages img {
+      width: 100%;
+      background: #fff;
+      box-shadow: 0 1px 2px rgba(0,0,0,.12), 0 6px 20px rgba(0,0,0,.08);
+    }
+    .pages figcaption {
+      font-family: "Barlow Semi Condensed", "Arial Narrow", sans-serif;
+      font-size: 12px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+      text-align: right;
+      margin-top: 6px;
+    }
+
+    .end {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 8px var(--gutter) 56px;
+      text-align: center;
+    }
+    .button {
+      display: inline-block;
+      background: var(--ink);
+      color: #fff;
+      text-decoration: none;
+      font-family: "Barlow Semi Condensed", "Arial Narrow", sans-serif;
+      font-weight: 600;
+      font-size: 15px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 12px 20px;
+      margin: 0 6px 10px;
+    }
+    .button:hover { background: var(--gold); color: var(--ink); }
+    .end p { color: var(--ink-soft); font-size: 14px; margin: 10px 0 0; }
+    .end .bunny { width: 96px; margin: 24px auto 0; }
+
+    @media (max-width: 640px) {
+      .top-inner { padding: 16px var(--gutter) 12px; }
+      .top a.home { flex-basis: 170px; }
+      .meta { font-size: 12px; }
+      .meta span { display: none; }
+      .pages { padding: 12px 8px 24px; }
+      .pages figure { margin-bottom: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="top">
+    <div class="top-inner">
+      <a class="home" href="./" aria-label="The Highlandian home">
+        <img src="images/wordmark.png" alt="The Highlandian" width="2164" height="274">
+      </a>
+      <div class="meta">
+        <span>Issue 001 &middot; Fall 2026</span>
+        <a href="the-highlandian-issue-001.pdf" target="_blank" rel="noopener">Download PDF</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="pages">
+    <figure><img src="images/issue-001/page-01.jpg" alt="Page 1 of The Highlandian, Issue 001" width="1400" height="1812" fetchpriority="high"><figcaption>Page 1</figcaption></figure>
+    <figure><img src="images/issue-001/page-02.jpg" alt="Page 2 of The Highlandian, Issue 001" width="1400" height="1812" loading="lazy"><figcaption>Page 2</figcaption></figure>
+    <figure><img src="images/issue-001/page-03.jpg" alt="Page 3 of The Highlandian, Issue 001" width="1400" height="1812" loading="lazy"><figcaption>Page 3</figcaption></figure>
+    <figure><img src="images/issue-001/page-04.jpg" alt="Page 4 of The Highlandian, Issue 001" width="1400" height="1812" loading="lazy"><figcaption>Page 4</figcaption></figure>
+    <figure><img src="images/issue-001/page-05.jpg" alt="Page 5 of The Highlandian, Issue 001" width="1400" height="1812" loading="lazy"><figcaption>Page 5</figcaption></figure>
+    <figure><img src="images/issue-001/page-06.jpg" alt="Page 6 of The Highlandian, Issue 001" width="1400" height="1812" loading="lazy"><figcaption>Page 6</figcaption></figure>
+    <figure><img src="images/issue-001/page-07.jpg" alt="Page 7 of The Highlandian, Issue 001" width="1400" height="1812" loading="lazy"><figcaption>Page 7</figcaption></figure>
+    <figure><img src="images/issue-001/page-08.jpg" alt="Page 8 of The Highlandian, Issue 001" width="1400" height="1812" loading="lazy"><figcaption>Page 8</figcaption></figure>
+    <figure><img src="images/issue-001/page-09.jpg" alt="Page 9 of The Highlandian, Issue 001" width="1400" height="1812" loading="lazy"><figcaption>Page 9</figcaption></figure>
+    <figure><img src="images/issue-001/page-10.jpg" alt="Page 10 of The Highlandian, Issue 001" width="1400" height="1812" loading="lazy"><figcaption>Page 10</figcaption></figure>
+    <figure><img src="images/issue-001/page-11.jpg" alt="Page 11 of The Highlandian, Issue 001" width="1400" height="1812" loading="lazy"><figcaption>Page 11</figcaption></figure>
+    <figure><img src="images/issue-001/page-12.jpg" alt="Page 12 of The Highlandian, Issue 001" width="1400" height="1812" loading="lazy"><figcaption>Page 12</figcaption></figure>
+  </main>
+
+  <footer class="end">
+    <a class="button" href="./">Back to the Highlandian</a>
+    <a class="button" href="the-highlandian-issue-001.pdf" target="_blank" rel="noopener">Download PDF</a>
+    <p>The PDF is 24 MB. It's the print file, so it can be slow on older computers and phones.</p>
+    <img class="bunny" src="images/bunny.png" alt="" width="416" height="231">
+  </footer>
+</body>
+</html>
