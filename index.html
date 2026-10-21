@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Highlandian | Highlands, Edmonton community newspaper</title>
+  <meta name="description" content="The Highlandian is the free local community paper for the Highlands neighbourhood of Edmonton, Alberta. Read the latest issue, submit a story, or sponsor the paper.">
+  <link rel="canonical" href="https://thehighlandian.org/">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="images/bird.png" type="image/png">
+  <link rel="apple-touch-icon" href="images/bird.png">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="The Highlandian">
+  <meta property="og:title" content="The Highlandian">
+  <meta property="og:description" content="A neighbourhood with stories to tell. The local community paper for Highlands, Edmonton, Alberta.">
+  <meta property="og:url" content="https://thehighlandian.org/">
+  <meta property="og:image" content="https://thehighlandian.org/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="‘Dawson Cutbanks’ by Carmen Lawrence, cover of The Highlandian Issue 001">
+  <meta property="og:locale" content="en_CA">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The Highlandian">
+  <meta name="twitter:description" content="A neighbourhood with stories to tell. The local community paper for Highlands, Edmonton, Alberta.">
+  <meta name="twitter:image" content="https://thehighlandian.org/images/og-image.jpg">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "NewsMediaOrganization",
+        "@id": "https://thehighlandian.org/#org",
+        "name": "The Highlandian",
+        "url": "https://thehighlandian.org/",
+        "logo": "https://thehighlandian.org/images/wordmark.png",
+        "slogan": "A neighbourhood with stories to tell",
+        "email": "ashaegupta@gmail.com",
+        "areaServed": {
+          "@type": "Place",
+          "name": "Highlands, Edmonton, Alberta, Canada"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Edmonton",
+          "addressRegion": "AB",
+          "addressCountry": "CA"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://thehighlandian.org/#website",
+        "url": "https://thehighlandian.org/",
+        "name": "The Highlandian",
+        "publisher": { "@id": "https://thehighlandian.org/#org" },
+        "inLanguage": "en-CA"
+      },
+      {
+        "@type": "Periodical",
+        "@id": "https://thehighlandian.org/#periodical",
+        "name": "The Highlandian",
+        "publisher": { "@id": "https://thehighlandian.org/#org" },
+        "isAccessibleForFree": true
+      },
+      {
+        "@type": "PublicationIssue",
+        "name": "The Highlandian, Issue 001",
+        "issueNumber": "1",
+        "datePublished": "2026-10",
+        "url": "https://thehighlandian.org/the-highlandian-issue-001.pdf",
+        "isPartOf": { "@id": "https://thehighlandian.org/#periodical" },
+        "image": "https://thehighlandian.org/images/og-image.jpg"
+      }
+    ]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Barlow+Semi+Condensed:wght@500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #292929;
+      --ink-soft: #555353;
+      --gold: #da9d32;
+      --magpie: #1a7fc1;
+      --paper: #ffffff;
+      --rule: #292929;
+      --gutter: 16px;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+      font-size: 18px;
+      line-height: 1.55;
+    }
+    img { display: block; max-width: 100%; height: auto; }
+    a { color: var(--ink); }
+
+    .page {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 24px var(--gutter) 48px;
+    }
+
+    /* Masthead */
+    .kicker {
+      display: flex;
+      justify-content: space-between;
+      font-family: "Barlow Semi Condensed", "Arial Narrow", sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+    }
+    .masthead {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 16px;
+      margin-top: 8px;
+      padding-bottom: 10px;
+      border-bottom: 3px double var(--rule);
+    }
+    .wordmark { flex: 1 1 auto; min-width: 0; }
+    .wordmark img { width: 100%; max-width: 640px; }
+    .bird { flex: 0 0 auto; width: 64px; margin-bottom: -4px; }
+    .tagline {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      margin-top: 10px;
+      font-family: "Barlow Semi Condensed", "Arial Narrow", sans-serif;
+      font-weight: 500;
+      font-size: 15px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    /* Intro */
+    .intro {
+      margin: 40px 0 36px;
+      font-size: 22px;
+      line-height: 1.45;
+      max-width: 640px;
+    }
+
+    /* Issue */
+    .issue {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      align-items: center;
+      border-top: 1px solid var(--rule);
+      padding-top: 28px;
+    }
+    .cover-figure { margin: 0; }
+    .issue a.cover { display: block; position: relative; }
+    .cover-figure figcaption { margin-top: 8px; font-size: 14px; font-style: italic; color: var(--ink-soft); }
+    .issue .cover img { width: 100%; border: 1px solid #ddd; }
+    .badge {
+      position: absolute;
+      top: -14px;
+      right: -10px;
+      background: var(--gold);
+      color: var(--ink);
+      font-family: "Barlow Semi Condensed", "Arial Narrow", sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 8px 12px;
+      transform: rotate(6deg);
+    }
+    .label {
+      font-family: "Barlow Semi Condensed", "Arial Narrow", sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+      margin: 0 0 6px;
+    }
+    .issue h2 {
+      font-size: 30px;
+      line-height: 1.15;
+      margin: 0 0 10px;
+      font-weight: 600;
+    }
+    .issue p { margin: 0 0 18px; color: var(--ink-soft); }
+    .button {
+      display: inline-block;
+      background: var(--ink);
+      color: #fff;
+      text-decoration: none;
+      font-family: "Barlow Semi Condensed", "Arial Narrow", sans-serif;
+      font-weight: 600;
+      font-size: 15px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 12px 20px;
+    }
+    .button:hover { background: var(--gold); color: var(--ink); }
+
+    /* Contact */
+    .contact {
+      margin-top: 44px;
+      border-top: 1px solid var(--rule);
+      padding-top: 28px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 28px;
+    }
+    .contact h3 { font-size: 24px; margin: 0 0 8px; font-weight: 600; }
+    .contact p { margin: 0 0 12px; color: var(--ink-soft); }
+    .contact a.mail { font-weight: 700; color: var(--magpie); text-decoration: none; }
+    .contact a.mail .arrow { display: inline-block; transition: transform .15s; }
+    .contact a.mail:hover { color: var(--ink); }
+    .contact a.mail:hover .arrow { transform: translateX(3px); }
+
+    /* Footer */
+    footer {
+      margin-top: 56px;
+      border-top: 3px double var(--rule);
+      padding-top: 18px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      gap: 16px;
+      font-size: 14px;
+      color: var(--ink-soft);
+    }
+    footer .bunny { width: 96px; flex: 0 0 auto; }
+
+    @media (max-width: 640px) {
+      body { font-size: 17px; }
+      .bird { width: 44px; }
+      .tagline { font-size: 13px; }
+      .intro { font-size: 19px; margin: 30px 0 28px; }
+      .issue, .contact { grid-template-columns: 1fr; }
+      .cover-figure { margin: 0 0 8px; }
+      .badge { top: -10px; right: 6px; }
+      .issue h2 { font-size: 26px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="masthead">
+        <h1 class="wordmark" style="margin:0">
+          <img src="images/wordmark.png" alt="The Highlandian" width="2164" height="274">
+        </h1>
+        <img class="bird" src="images/bird.png" alt="" width="328" height="366">
+      </div>
+      <div class="tagline"><span>A neighbourhood with stories to tell</span></div>
+    </header>
+
+    <main>
+      <p class="intro">This is the local community paper for the neighbourhood of Highlands, Edmonton, Alberta, Canada.</p>
+
+      <section class="issue">
+        <figure class="cover-figure">
+          <a class="cover" href="the-highlandian-issue-001.pdf" target="_blank" rel="noopener">
+            <img src="images/cover-dawson-cutbanks.jpg" alt="Cover of Issue 001: ‘Dawson Cutbanks’ by Carmen Lawrence of Highlands" width="1800" height="1337">
+            <span class="badge">Our first issue</span>
+          </a>
+          <figcaption>&ldquo;Dawson Cutbanks&rdquo; by Carmen Lawrence of Highlands</figcaption>
+        </figure>
+        <div>
+          <p class="label">Fall 2026</p>
+          <h2>Issue 001</h2>
+          <p>Little Free Libraries, Highlands ghost stories, new and new-to-you finds, and more from around the neighbourhood.</p>
+          <a class="button" href="the-highlandian-issue-001.pdf" target="_blank" rel="noopener">Read the issue (PDF)</a>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div>
+          <h3>Submissions</h3>
+          <p>Have a story, photo, poem or neighbourhood news for the next issue? We’d love to hear from you.</p>
+          <a class="mail" href="mailto:ashaegupta@gmail.com?subject=Submission%20for%20The%20Highlandian">Contact us <span class="arrow">&rarr;</span></a>
+        </div>
+        <div>
+          <h3>Request for sponsorship</h3>
+          <p>Local businesses and neighbours can help keep The Highlandian free. Get in touch to learn about sponsoring an issue.</p>
+          <a class="mail" href="mailto:ashaegupta@gmail.com?subject=Sponsorship%20request%20for%20The%20Highlandian">Contact us <span class="arrow">&rarr;</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>&copy; 2026 The Highlandian &middot; Highlands, Edmonton, Alberta</div>
+      <img class="bunny" src="images/bunny.png" alt="" width="416" height="231">
+    </footer>
+  </div>
+</body>
+</html>
